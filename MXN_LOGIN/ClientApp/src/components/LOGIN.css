@@ -1,0 +1,99 @@
+﻿.modalbox {
+    /* background-color: white; */
+    color: white;
+    height: 680px;
+    width: 500px;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 12%);
+    border-radius: 16px;
+}
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+.loginmodalbox {
+    /* background-color: white; */
+    color:white;
+    height: 450px;
+    width: 500px;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 12%);
+    border-radius: 16px;
+    /* background-color: #373b3f; */
+}
+.detailmodalbox {
+    /* background-color: white; */
+    color: white;
+    height: 450px;
+    width: 500px;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 12%);
+    border-radius: 16px;
+    /* background-color: #373b3f; */
+}
+.Login input,
+.Signup input,
+.detail input,
+.Modal input {
+    /* border: 1px solid #cccccc; */
+    height: 42px;
+    width: 300px;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    margin-top: 2px;
+    font-weight: 400;
+    font-size: 30px;
+}
+.Signup select {
+    height: 42px;
+    border-radius: 3px;
+ 
+    margin-bottom: 18px;
+    margin-top: 2px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+    /*.Login input:focus {
+        border-color: cornflowerblue;
+    }*/
+.Login,
+.Signup {
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    /* background-color: #57c6a8; */
+    height: 100%;
+}
+    .Login h3 {
+        /* color: #999999; */
+        font-size: 30px;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+.form {
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.Login button,
+.Signup button, .Register {
+    background-color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+    .Login button:hover,
+    .Signup button:hover, .Register:hover {
+        background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+        background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+        color: white;
+        text-decoration:none;
+    }
